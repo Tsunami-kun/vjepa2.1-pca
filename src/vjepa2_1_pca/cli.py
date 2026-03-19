@@ -38,7 +38,7 @@ class UpstreamModules:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Render V-JEPA 2.1 dense PCA visualizations from a local checkpoint."
+        description="Render vjepa2.1 dense PCA visualizations from a local checkpoint."
     )
     parser.add_argument(
         "--vjepa-root",
@@ -47,7 +47,7 @@ def parse_args() -> argparse.Namespace:
         help="Path to a local clone of facebookresearch/vjepa2.",
     )
     parser.add_argument("--input", type=Path, required=True, help="Path to an input video or image.")
-    parser.add_argument("--checkpoint", type=Path, required=True, help="Path to a local V-JEPA 2.1 checkpoint.")
+    parser.add_argument("--checkpoint", type=Path, required=True, help="Path to a local vjepa2.1 checkpoint.")
     parser.add_argument("--model", choices=sorted(MODEL_ARCHES.keys()), default="vit_large")
     parser.add_argument("--checkpoint-key", default="auto")
     parser.add_argument("--feature-mode", choices=("last", "hierarchical"), default="last")
@@ -386,7 +386,7 @@ def main():
     )
     save_visualizations(clip[0], pca_rgb, args.output_dir, frame_indices, args.tubelet_size)
 
-    print(f"Upstream V-JEPA root: {vjepa_root}")
+    print(f"Upstream vjepa2 root: {vjepa_root}")
     print(f"Loaded encoder weights from key '{checkpoint_key}' with msg: {load_msg}")
     print(f"Device used: {device}")
     print(f"Feature mode: {args.feature_mode}")

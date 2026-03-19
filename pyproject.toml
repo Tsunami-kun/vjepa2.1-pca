@@ -5,15 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "vjepa2-1-pca"
 version = "0.1.0"
-description = "Companion utility for rendering V-JEPA 2.1 dense PCA visualizations."
+description = "Companion utility for rendering vjepa2.1 dense PCA visualizations."
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 keywords = [
     "vjepa",
-    "v-jepa",
     "vjepa2",
-    "v-jepa2",
     "vjepa2.1",
     "world-model",
     "pca",
@@ -28,9 +26,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Tsunami-kun/V-JEPA-2.1-PCA"
-Repository = "https://github.com/Tsunami-kun/V-JEPA-2.1-PCA"
-Issues = "https://github.com/Tsunami-kun/V-JEPA-2.1-PCA/issues"
+Homepage = "https://github.com/Tsunami-kun/vjepa2.1-pca"
+Repository = "https://github.com/Tsunami-kun/vjepa2.1-pca"
+Issues = "https://github.com/Tsunami-kun/vjepa2.1-pca/issues"
 
 [project.scripts]
 vjepa21-pca = "vjepa2_1_pca.cli:main"

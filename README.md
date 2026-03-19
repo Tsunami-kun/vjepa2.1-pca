@@ -1,18 +1,18 @@
-# V-JEPA 2.1 PCA
+# vjepa2.1 PCA
 
-`V-JEPA 2.1 PCA` is a small companion repository for rendering PCA-based visualizations of dense token features from **V-JEPA 2.1** checkpoints.
+`vjepa2.1 PCA` is a small companion repository for rendering PCA-based visualizations of dense token features from **vjepa2.1** checkpoints.
 
 It is built as a contribution to the open-source community and as a small step toward making world-model behavior easier to inspect, discuss, and understand.
 
-Search keywords: `vjepa`, `v-jepa`, `vjepa2`, `v-jepa2`, `vjepa2.1`, `v-jepa 2.1`, `pca`, `visualization`, `dense features`, `world model`.
+Search keywords: `vjepa`, `vjepa2`, `vjepa2.1`, `pca`, `visualization`, `dense features`, `world model`.
 
-It exists for one reason: the official `facebookresearch/vjepa2` repository presents V-JEPA 2.1 through PCA visualizations of dense features, but does not currently ship a standalone, user-facing PCA visualization utility. This repository fills that gap with a focused CLI.
+It exists for one reason: the official `facebookresearch/vjepa2` repository presents vjepa2.1 through PCA visualizations of dense features, but does not currently ship a standalone, user-facing PCA visualization utility. This repository fills that gap with a focused CLI.
 
 ## What This Repository Does
 
 This repository:
 
-- loads a local V-JEPA 2.1 checkpoint
+- loads a local vjepa2.1 checkpoint
 - runs the encoder on a video or image
 - projects dense token features to 3 PCA components
 - saves side-by-side original/PCA panels for qualitative inspection
@@ -26,7 +26,7 @@ The PCA output is useful for:
 
 ## Showcase
 
-These example panels show the output format used by this repository across both standalone images and the bundled V-JEPA 2.1 sample video.
+These example panels show the output format used by this repository across both standalone images and the bundled vjepa2.1 sample video.
 
 Each panel is:
 
@@ -66,28 +66,23 @@ The bundled sample video showcases were rendered from the official `facebookrese
 
 ## Why It Matters
 
-V-JEPA 2.1 is interesting not only because it is strong on global video understanding, but because it improves the **quality, structure, and temporal consistency of dense features** relative to V-JEPA 2. PCA visualizations are one of the clearest ways to inspect that claim qualitatively.
+vjepa2.1 is interesting not only because it is strong on global video understanding, but because it improves the **quality, structure, and temporal consistency of dense features** relative to vjepa2. PCA visualizations are one of the clearest ways to inspect that claim qualitatively.
 
-This repository is therefore not a reimplementation of V-JEPA 2.1 training. It is a **visualization and inspection tool** built around the official model code and checkpoints.
+This repository is therefore not a reimplementation of vjepa2.1 training. It is a **visualization and inspection tool** built around the official model code and checkpoints.
 
-## Relationship To V-JEPA 2.1
+## Relationship To vjepa2.1
 
 This repository is intentionally easy to find for people searching for any of these terms:
 
-- `V-JEPA`
-- `V-JEPA 2`
-- `V-JEPA 2.1`
 - `vjepa`
-- `v-jepa`
 - `vjepa2`
-- `v-jepa2`
 - `vjepa2.1`
 - `pca visualization`
 - `dense feature visualization`
 
 This repository is:
 
-- **not** the official V-JEPA 2.1 training codebase
+- **not** the official vjepa2.1 training codebase
 - **not** a replacement for `facebookresearch/vjepa2`
 - **not** a fork with copied model code
 
@@ -99,12 +94,12 @@ Instead, it is a thin companion utility that depends on a local clone of the off
 
 You should think of the setup like this:
 
-- `facebookresearch/vjepa2`: upstream source of truth for V-JEPA 2.1 models and checkpoints
-- `V-JEPA 2.1 PCA`: standalone visualization frontend for dense PCA inspection
+- `facebookresearch/vjepa2`: upstream source of truth for vjepa2.1 models and checkpoints
+- `vjepa2.1 PCA`: standalone visualization frontend for dense PCA inspection
 
 ## Installation
 
-### 1. Clone the official V-JEPA 2 repository
+### 1. Clone the official vjepa2 repository
 
 ```bash
 git clone https://github.com/facebookresearch/vjepa2.git
@@ -124,12 +119,12 @@ At minimum, this tool expects the upstream repository environment to provide:
 ### 3. Clone this repository
 
 ```bash
-git clone <your-repo-url> V-JEPA-2.1-PCA
-cd V-JEPA-2.1-PCA
+git clone <your-repo-url> vjepa2.1-pca
+cd vjepa2.1-pca
 pip install -e .
 ```
 
-### 4. Point this tool to your upstream V-JEPA 2 clone
+### 4. Point this tool to your upstream vjepa2 clone
 
 You can do that in either way:
 
@@ -234,7 +229,7 @@ It is meant to be:
 - easy to run
 - easy to adapt
 
-It is not meant to duplicate the official V-JEPA 2.1 codebase or training stack.
+It is not meant to duplicate the official vjepa2.1 codebase or training stack.
 
 ## Development
 

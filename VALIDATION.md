@@ -1,6 +1,6 @@
 # Validation
 
-This repository has been checked as an engineering utility for V-JEPA 2.1 dense-feature PCA visualization.
+This repository has been checked as an engineering utility for vjepa2.1 dense-feature PCA visualization.
 
 ## What Is Verified
 
@@ -11,7 +11,7 @@ This repository has been checked as an engineering utility for V-JEPA 2.1 dense-
 - PCA outputs are normalized to `[0, 1]`.
 - The token-grid geometry matches the expected `T x H x W` layout.
 - The saved panels pair the original frame with the PCA-rendered dense token view.
-- Image inputs and video inputs both run through the released V-JEPA 2.1 encoder path.
+- Image inputs and video inputs both run through the released vjepa2.1 encoder path.
 - The bundled sample video and released checkpoints run successfully.
 
 ## What Is Not Claimed
@@ -27,4 +27,4 @@ As a visualization tool, the PCA pipeline is correct and stable enough for:
 - qualitative dense-feature inspection
 - checkpoint debugging
 - comparing `last` and `hierarchical` representations
-- communicating V-JEPA 2.1 dense-feature behavior to the open-source community
+- communicating vjepa2.1 dense-feature behavior to the open-source community
