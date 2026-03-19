@@ -9,7 +9,18 @@ description = "Companion utility for rendering V-JEPA 2.1 dense PCA visualizatio
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
-keywords = ["vjepa2", "v-jepa", "vjepa2.1", "world-model", "pca", "dense-features", "video"]
+keywords = [
+    "vjepa",
+    "v-jepa",
+    "vjepa2",
+    "v-jepa2",
+    "vjepa2.1",
+    "world-model",
+    "pca",
+    "visualization",
+    "dense-features",
+    "video",
+]
 dependencies = [
     "numpy",
     "pillow",

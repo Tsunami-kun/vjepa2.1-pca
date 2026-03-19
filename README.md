@@ -4,6 +4,8 @@
 
 It is built as a contribution to the open-source community and as a small step toward making world-model behavior easier to inspect, discuss, and understand.
 
+Search keywords: `vjepa`, `v-jepa`, `vjepa2`, `v-jepa2`, `vjepa2.1`, `v-jepa 2.1`, `pca`, `visualization`, `dense features`, `world model`.
+
 It exists for one reason: the official `facebookresearch/vjepa2` repository presents V-JEPA 2.1 through PCA visualizations of dense features, but does not currently ship a standalone, user-facing PCA visualization utility. This repository fills that gap with a focused CLI.
 
 ## What This Repository Does
@@ -69,6 +71,19 @@ V-JEPA 2.1 is interesting not only because it is strong on global video understa
 This repository is therefore not a reimplementation of V-JEPA 2.1 training. It is a **visualization and inspection tool** built around the official model code and checkpoints.
 
 ## Relationship To V-JEPA 2.1
+
+This repository is intentionally easy to find for people searching for any of these terms:
+
+- `V-JEPA`
+- `V-JEPA 2`
+- `V-JEPA 2.1`
+- `vjepa`
+- `v-jepa`
+- `vjepa2`
+- `v-jepa2`
+- `vjepa2.1`
+- `pca visualization`
+- `dense feature visualization`
 
 This repository is:
 
