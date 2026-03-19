@@ -1,0 +1,28 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated outputs
+outputs/
+
+# Local editor / agent notes
+AGENT.md
+AGENTS.md
+claude.md
+**/AGENT.md
+**/AGENTS.md
+**/claude.md
